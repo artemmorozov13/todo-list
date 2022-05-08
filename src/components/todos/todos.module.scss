@@ -1,0 +1,13 @@
+.todos{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 695px) {
+    .todos{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
